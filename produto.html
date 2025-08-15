@@ -1,0 +1,36 @@
+<!doctype html><html lang="pt-br"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Produto — Loja Roxa</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+
+<header>
+  <div class="logo"><img src="logo.png" alt="Logo da Loja" style="height:40px"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="carrinho.html">Carrinho</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <input class="busca" type="text" placeholder="Buscar produtos...">
+</header>
+
+<main>
+  <section class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
+    <img src="https://picsum.photos/seed/unico/800/600" alt="Produto">
+    <div>
+      <h1>Produto Exemplo</h1>
+      <p class="texto" style="margin:.8rem 0 1rem">Descrição breve do produto, com detalhes e benefícios.</p>
+      <div class="preco" style="font-size:1.2rem">R$ 89,90</div>
+      <div class="produto-acoes"><a href="compra.html?id=99&name=Produto%20Exemplo&price=89.9&qty=1" class="btn btn-comprar">Comprar</a><a href="#" class="btn btn-carrinho" onclick="addToCart('Produto Exemplo', 89.9, 1)">Adicionar ao Carrinho</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2025 Loja Roxa — Todos os direitos reservados.</footer>
+
+
+<script src="app.js"></script>
+</body></html>

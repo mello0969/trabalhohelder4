@@ -1,0 +1,75 @@
+<!doctype html><html lang="pt-br"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TechTec — Início</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+
+<header>
+  <div class="logo"><img src="img/logo.png" alt="Logo da Loja" style="height:40px"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="carrinho.html">Carrinho</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <input class="busca" type="text" placeholder="Buscar produtos...">
+</header>
+
+<main>
+  <section class="container hero">
+    <div>
+      <h1>TechTec teclas personalizadas</h1>
+      <p>As melhores e mais detalhadas obras de arte do Brasil!</p>
+      <div class="botoes">
+        <a class="btn" href="produtos.html">Ver produtos</a>
+        
+      </div>
+    </div>
+    <div class="card" style="min-height:220px"></div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Destaques</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="img/produto 1.png" alt="Produto 1">
+        <div class="info">
+          <h3>Kit Keycap Jinx League of Legends</h3>
+          <div class="preco">R$ 49,90</div>
+          <div class="produto-acoes"><a href="compra.html?id=1&name=Produto 1&price=49.9&qty=1" class="btn btn-comprar">Comprar</a><a href="#" class="btn btn-carrinho" onclick="addToCart(\'Produto 1\', 49.9, 1)">Adicionar ao Carrinho</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/produto 2.png" alt="Kit Keycap Jinx League of Legends">
+        <div class="info">
+          <h3>Kit Keycap Jinx League of Legends</h3>
+          <div class="preco">R$ 59,90</div>
+          <div class="produto-acoes"><a href="compra.html?id=2&name=Produto 2&price=59.9&qty=1" class="btn btn-comprar">Comprar</a><a href="#" class="btn btn-carrinho" onclick="addToCart(\'Produto 2\', 59.9, 1)">Adicionar ao Carrinho</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/produto 3.png" alt="Kit Keycap Jinx League of Legends">
+        <div class="info">
+          <h3>Kit Keycap Jinx League of Legends</h3>
+          <div class="preco">R$ 69,90</div>
+          <div class="produto-acoes"><a href="compra.html?id=3&name=Produto 3&price=69.9&qty=1" class="btn btn-comprar">Comprar</a><a href="#" class="btn btn-carrinho" onclick="addToCart(\'Produto 3\', 69.9, 1)">Adicionar ao Carrinho</a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="sobre" class="container">
+    <h2 class="section-title">Sobre</h2>
+    <p class="texto">A TechTec é especializada na criação de keycaps personalizadas que unem
+       design único e alta qualidade. Cada peça é desenvolvida com atenção aos detalhes, garantindo conforto, durabilidade e um visual
+        exclusivo para o seu teclado. Seja para gamers, criadores ou amantes de setups personalizados, nossas keycaps transformam o seu
+         teclado em algo realmente seu.</p>
+  </section>
+</main>
+
+<footer>© 2025 TechTec</footer>
+
+
+</body></html>
